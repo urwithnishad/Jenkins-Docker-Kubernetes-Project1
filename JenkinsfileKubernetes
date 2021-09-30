@@ -10,7 +10,7 @@ node{
     }
     
     stage('Build Docker Image'){        
-        sh "docker build -t ameintu/jenkins-docker-k8s-project:${env.BUILD_ID} ."
+        sh "docker build -t urwithnishad/jenkins-docker-k8s-project:${env.BUILD_ID} ."
     }
     
     stage('Push Docker Image'){
